@@ -111,3 +111,7 @@ class VersiculoResponse(SQLModel):
     numero: int
     texto: str
     capitulo_id: int
+
+class VersiculoTextoResponse(SQLModel):
+    numero: int
+    texto: str
